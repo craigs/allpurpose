@@ -1,4 +1,5 @@
-require "minitest/autorun"
+require 'turn/autorun'
+
 require_relative "../../lib/allpurpose/quote"
 
 describe "AllPurpose Quote" do
