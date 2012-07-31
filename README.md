@@ -24,12 +24,18 @@ $ gem install allpurpose
 
 ## Usage
 
-To get a quote from All Purpose, you will need to pass in the suburb name, post code and volume of your items that you want shipped.
+Obtaining a quote from All Purpose, you will need to pass in the destination suburb name, destination post code and volume of your items that you want shipped.
 
-So, to get a quote to get your items with a volume of 1.58 cubic meters delivered to Brisbane Market, post code 4106, you would do ...
+All Purpose API assumes that your items will be picked up from the Brisbane Metro area only so there is no need to define pickup destination.
+
+**Example**
+Here is an example of getting a quote from All Purpose ...
 
 ```
-ap = Allpurpose::Quote.quote('Brisbane Market', 4106, 1.58)
+suburb = 'Brisbane Market'
+post_code = 4106	# post code for Brisbane Market
+volume = 1.58
+ap = Allpurpose::Quote.quote(suburb, post_code_, volume)
 puts ap.amount
 ```
 
