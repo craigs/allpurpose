@@ -28,13 +28,13 @@ Obtaining a quote from All Purpose, you will need to pass in the destination sub
 
 All Purpose API assumes that your items will be picked up from the Brisbane Metro area only so there is no need to define pickup destination.
 
-**Example**
 Here is an example of getting a quote from All Purpose ...
 
 ```
 suburb = 'Brisbane Market'
 post_code = 4106	# post code for Brisbane Market
 volume = 1.58
+
 ap = Allpurpose::Quote.quote(suburb, post_code_, volume)
 puts ap.amount
 ```
