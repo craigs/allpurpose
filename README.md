@@ -1,6 +1,6 @@
 # Allpurpose
 
-Ruby client for the All Purpose Removals and Storage (www.allpurposeremovals.com.au) freight API.
+Ruby client for the [All Purpose Removals and Storage](www.allpurposeremovals.com.au) freight API.
 
 ## Installation
 
