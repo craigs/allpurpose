@@ -35,7 +35,7 @@ suburb = 'Brisbane Market'
 post_code = 4106	# post code for Brisbane Market
 volume = 1.58
 
-ap = Allpurpose::Quote.quote(suburb, post_code_, volume)
+ap = Allpurpose::Quote.quote(suburb, post_code, volume)
 puts ap.amount
 ```
 
