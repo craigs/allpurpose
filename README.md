@@ -2,6 +2,8 @@
 
 Ruby client for the [All Purpose Removals and Storage](http://www.allpurposeremovals.com.au) freight API.
 
+[![Build Status](https://travis-ci.org/craigs/allpurpose.png)](https://travis-ci.org/craigs/allpurpose)
+
 ## Installation
 
 Add this line to your application's Gemfile:
